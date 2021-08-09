@@ -14,7 +14,6 @@
     "create-heroku-db": "heroku addons:create heroku-postgresql:hobby-dev",
     "get-dev-db-url": "heroku config:get DEV_DATABASE_URL",
     "get-prod-db-url": "heroku config:get DATABASE_URL"
-    
   },
   "jest": {
     "testEnvironment": "node"
@@ -29,10 +28,10 @@
     "@types/pg": "^8.6.1",
     "eslint": "^7.32.0",
     "jest": "^27.0.6",
+    "morgan": "^1.10.0",
     "nodemon": "^2.0.12",
     "prettier": "^2.3.2",
-    "supertest": "^6.1.4",
-    "morgan": "^1.10.0"
+    "supertest": "^6.1.4"
   },
   "dependencies": {
     "cors": "^2.8.5",
